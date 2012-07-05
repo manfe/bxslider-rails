@@ -18,12 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The bxSlider is a jQuery HTML Content Slider, so please check if you are using the jquery on your rails app
 
-## Contributing
+`` //= require jquery
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Add to your app/assets/javascripts/application.js
+
+`` //= require bxslider
+
+If you are going to use the Easing Transitions you will need the easing js:
+
+`` //= require bxslider
+`` //= require easing1.3.js
+
