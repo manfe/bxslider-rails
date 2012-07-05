@@ -58,4 +58,8 @@ Or just javascript:
 	$(document).ready(function(){
 	  $('#slider1').bxSlider();
 	});
+	
+##### Gem Author
 
+http://twitter.com/manfe01
+http://manfe.com.br
