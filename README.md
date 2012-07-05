@@ -48,12 +48,12 @@ Example from http://bxslider.com
 	  <li>And so on...</li>
 	</ul>
 	
-If you are going to use coffee script I suggest use to start the slider:
+If you are going to use coffee script:
 
 	$(document).ready ->
 	  $("#slider1").bxSlider()
 	
-Or normal javascript:
+Or just javascript:
 
 	$(document).ready(function(){
 	  $('#slider1').bxSlider();
