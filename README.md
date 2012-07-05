@@ -3,6 +3,11 @@
 jQuery bxSlider v3.0 - Copyright 2011, Steven Wanderski
 http://bxslider.com
 
+### Extra info
+
+	bxSlider v3.0 == bxslider-rails (3.0.0)
+	
+
 ## Installation
 
 Add this line to your application's Gemfile:
