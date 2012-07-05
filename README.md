@@ -39,3 +39,23 @@ If you are going to use the Easing Transitions you will need the easing1.3.js:
     //= require bxslider
     //= require easing1.3
 
+Example from http://bxslider.com
+
+	<ul id="slider1">
+	  <li>Slide one content</li>
+	  <li>Slide two content</li>
+	  <li>Slide three content</li>
+	  <li>And so on...</li>
+	</ul>
+	
+If you are going to use coffee script I suggest use to start the slider:
+
+	$(document).ready ->
+	  $("#slider1").bxSlider()
+	
+Or normal javascript:
+
+	$(document).ready(function(){
+	  $('#slider1').bxSlider();
+	});
+
