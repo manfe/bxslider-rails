@@ -8,7 +8,7 @@ bxSlider Author: Steven Wanderski, Copyright 2011
 
 ### Extra info
 
-	bxSlider v3.0 == bxslider-rails (3.0.0)
+	bxSlider4 == bxslider-rails (4.0.0)
 	
 ## Installation
 
@@ -30,36 +30,45 @@ The bxSlider is a jQuery HTML Content Slider, so please check if you are using t
 
     //= require jquery
 
-Add to your app/assets/javascripts/application.js
-
-    //= require bxslider 
-
-If you are going to use the Easing Transitions you will need the easing1.3.js:
-
+Your app/assets/javascripts/application.js must appear like:
+    //= require jquery
+    //= require jquery_ujs
     //= require bxslider
-    //= require easing1.3
+    //= require_tree .
 
-Example from http://bxslider.com
+And your app/assets/stylesheets/application.css like this:
+    *= require_self
+    *= require bxslider
+    *= require_tree .
+    
+    
+Basic Structure example from http://bxslider.com
 
-	<ul id="slider1">
+	<ul class="bxslider">
 	  <li>Slide one content</li>
 	  <li>Slide two content</li>
 	  <li>Slide three content</li>
 	  <li>And so on...</li>
 	</ul>
 	
+
+## REMEMBER TO INITIALIZE IT!
+
 If you are going to use coffee script:
 
 	$(document).ready ->
-	  $("#slider1").bxSlider()
+	  $(".bxslider").bxSlider()
 	
 Or just javascript:
 
 	$(document).ready(function(){
-	  $('#slider1').bxSlider();
+	  $('.bxslider').bxSlider();
 	});
-	
+
+For more documentation please checkout the bxslider 4 repository here:
+  https://github.com/wandoledzep/bxslider-4
+
 ##### Gem Author
 
 http://twitter.com/manfe01
-http://manfe.com.br
+http://ferreiramauricio.com

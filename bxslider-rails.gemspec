@@ -6,12 +6,12 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Bxslider::Rails::VERSION
   gem.authors       = ["Mauricio N. Ferreira"]
-  gem.email         = ["manfe01@gmail.com"]
+  gem.email         = ["contato@ferreiramauricio.com"]
   gem.description   = <<-EOF
     bxSlider is a jQuery HTML Content Slider.
     This gem allows for its easy inclusion into the rails asset pipeline.
   EOF
-  gem.summary       = "The bxSlider is a jQuery HTML Content Slider ready to play with Rails."
+  gem.summary       = "The bxSlider Rails is a jQuery HTML Content Slider ready to play with Rails."
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
     
 end
