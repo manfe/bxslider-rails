@@ -1,14 +1,13 @@
-# bxSlider Rails Gem
+# bxSlider Rails Gem - v4.1
 
-jQuery bxSlider v3.0
+jQuery bxSlider v4.1 - http://bxslider.com
 
-http://bxslider.com
-
-bxSlider Author: Steven Wanderski, Copyright 2011
+bxSlider       Author: Steven Wanderski, Copyright 2011
+bxslider-rails Author: Mauricio Natanael Ferreira.
 
 ### Extra info
 
-	bxSlider4 == bxslider-rails (4.0.0)
+	bxSlider 4.1 == bxslider-rails (4.1.0)
 	
 ## Installation
 
