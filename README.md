@@ -30,15 +30,17 @@ The bxSlider is a jQuery HTML Content Slider, so please check if you are using t
     //= require jquery
 
 Your app/assets/javascripts/application.js must appear like:
-    //= require jquery
-    //= require jquery_ujs
-    //= require bxslider
-    //= require_tree .
+
+	//= require jquery
+	//= require jquery_ujs
+	//= require bxslider
+	//= require_tree .
 
 And your app/assets/stylesheets/application.css like this:
-    *= require_self
-    *= require bxslider
-    *= require_tree .
+
+	*= require_self
+	*= require bxslider
+	*= require_tree .
     
     
 Basic Structure example from http://bxslider.com
