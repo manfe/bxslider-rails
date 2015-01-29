@@ -51,7 +51,14 @@ Basic Structure example from http://bxslider.com
 	  <li>Slide three content</li>
 	  <li>And so on...</li>
 	</ul>
-	
+
+### Production environmet setup (Rails 4.0+ only)
+
+You have to add images to precompile array manually in your `config/environments/production.rb`
+
+	# Precompile additional assets.
+	# application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
+	config.assets.precompile += %w( bx_loader.gif controls.png )
 
 ## REMEMBER TO INITIALIZE IT!
 
