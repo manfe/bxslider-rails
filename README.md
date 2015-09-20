@@ -1,13 +1,13 @@
-# bxSlider Rails Gem - v4.1.2
+# bxSlider Rails Gem - v4.1.3
 
-jQuery bxSlider v4.1.2 - http://bxslider.com
+jQuery bxSlider v4.1.3 - http://bxslider.com
 
 bxSlider       Author: Steven Wanderski, Copyright 2011
 bxslider-rails Author: Mauricio Natanael Ferreira.
 
 ### Extra info
 
-	bxSlider 4.1.2 == bxslider-rails (4.1.2)
+	bxSlider 4.1.3 == bxslider-rails (4.1.3)
 	
 ## Installation
 
@@ -59,6 +59,12 @@ You have to add images to precompile array manually in your `config/environments
 	# Precompile additional assets.
 	# application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 	config.assets.precompile += %w( bx_loader.gif controls.png )
+
+On rails 4.2 you need to change it on `config/initializers/assets.rb`
+
+	# Precompile additional assets.
+	# application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
+	Rails.application.config.assets.precompile += %w( bx_loader.gif controls.png )
 
 ## REMEMBER TO INITIALIZE IT!
 
