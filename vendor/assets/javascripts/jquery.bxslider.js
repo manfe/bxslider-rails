@@ -234,7 +234,7 @@
       }
       // apply css to all slider children
       slider.children.css({
-        float: slider.settings.mode === 'horizontal' ? 'left' : 'none',
+        'float': slider.settings.mode === 'horizontal' ? 'left' : 'none',
         listStyle: 'none',
         position: 'relative'
       });
