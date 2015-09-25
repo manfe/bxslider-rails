@@ -7,7 +7,7 @@ bxslider-rails Author: Mauricio Natanael Ferreira.
 
 ### Extra info
 
-	bxSlider 4.2.5 == bxslider-rails (4.2.5)
+	bxSlider 4.2.5 == bxslider-rails (4.2.5.1)
 	
 ## Installation
 
